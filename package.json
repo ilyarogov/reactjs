@@ -1,0 +1,19 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "First react js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyarogov/reactjs.git"
+  },
+  "author": "Ilya Rogov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyarogov/reactjs/issues"
+  },
+  "homepage": "https://github.com/ilyarogov/reactjs#readme"
+}

@@ -1,7 +1,5 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
 
 
@@ -17,7 +15,6 @@ class LoginForm extends React.Component {
 
     handleLogin(event){
         event.preventDefault();
-        this.setState({value: event.target.value});
         console.log(this.state)
     }
 
@@ -59,10 +56,6 @@ class LoginForm extends React.Component {
               autoComplete="current-password"
               value={this.state.password}
               onChange={this.handleInputChange} 
-            />
-            <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
             />
             <Button
               type="submit"
